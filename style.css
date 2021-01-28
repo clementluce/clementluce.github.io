@@ -439,15 +439,11 @@ footer {
     }
 }
 
-@media (max-width: 1135px) 
-{
-    .popularsCard {
-        width:50%;
-    }
-}
-
 @media (max-width: 1100px) 
 {
+.popularsCard {
+     width:50%;
+}
 .activitiesCard, .activitiesContainer { 
     height:240px;
 }
@@ -471,31 +467,25 @@ footer {
     padding-right:10px;
 }
 }
-@media (max-width: 840px) 
+@media (max-width: 800px) 
 {
     .hostingCard{
         width:50%;
     }
-}
-@media (max-width: 800px) 
-{
     .popularsCard{
         width:100%;
     }
 }
-@media (max-width: 750px) 
-{
-    footer {
-        flex-wrap:wrap;
-        margin-top:25px;
-    }
-    .footerContent {
-        width:50%;
-        margin-bottom:30px;
-    }
-}
 @media (max-width: 700px) 
 {
+footer {
+     flex-wrap:wrap;
+    margin-top:25px;
+}
+.footerContent {
+    width:50%;
+    margin-bottom:30px;
+}
 .activitiesCard
 {
     width:100%;
