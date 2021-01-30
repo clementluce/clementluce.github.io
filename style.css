@@ -8,7 +8,7 @@ html {
 }
 body { 
     margin:0; 
-    min-width:500px;
+    min-width:375px;
     padding:0; 
 }
 a, a:visited { 
