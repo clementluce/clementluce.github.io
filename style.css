@@ -556,6 +556,11 @@ footer {
         flex-wrap:wrap; 
         padding:0px; 
     }
+    .menuLink { 
+        width:50%; 
+        padding:18px;
+        border-top:0; 
+    }
     .activitiesContainer {
         height:auto;
     }
@@ -633,14 +638,7 @@ footer {
         width:300px; 
         padding:20px; 
     }
-    .menuLink { 
-        width:50%; 
-        display:flex; 
-        justify-content:center; 
-        border-bottom:8px solid #f2f2f2; 
-        font-size:3rem; 
-        border-top:0; 
-    }
+    
     .menuLink:hover { 
         border-bottom:8px solid #0065FC;  
         border-top:0; 
