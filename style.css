@@ -547,7 +547,9 @@ footer {
 
 @media (max-width: 520px) 
 {
-    
+    body {
+        font-size:130%;
+    }
     .activitiesContainer {
         height:auto;
     }
@@ -558,8 +560,8 @@ footer {
         height:240px;
     }
 }
-
-@media only screen and (max-width : 480px) {
+/*
+@media (max-width : 480px) {
     p {
         margin-top:60px; 
     }
@@ -744,11 +746,12 @@ footer {
         font-size: 2rem;
     }
     .popularsFigure, .hostingFigure{
-        border: 15px solid white;
+        padding:15px;
         border-radius:50px;
     }
     .popularsFigure img {
         width:35%;
+        border-radius:35px 35px 0px 0px;
         height:320px;
     }
     .hostingContent img {
@@ -804,6 +807,9 @@ footer {
         font-size:2.5rem;
     }
     }
+    */
+    
+
 
 
 
